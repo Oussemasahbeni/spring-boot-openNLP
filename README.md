@@ -1,6 +1,7 @@
 # Spring Boot OpenNLP Demo
 
 This is a Spring Boot application that demonstrates the usage of Apache OpenNLP for natural language processing (NLP) tasks such as language detection, sentence detection, and tokenization. The service processes HTML text, converts it to plain text, detects the language, tokenizes the text, and maps tokens to their types and IDs using database data.
+I had to implement this feature to enhanve recommendations in my end of studies project so i decided to share it with you
 
 ## Table of Contents
 
@@ -14,7 +15,7 @@ This is a Spring Boot application that demonstrates the usage of Apache OpenNLP 
 
 ## Features
 
-- Convert HTML text to plain text
+- Convert HTML text to plain text ( job-offer description is saved in a html format in the db)
 - Detect the language of the text
 - Detect sentences in the text
 - Tokenize the text into individual tokens
@@ -28,7 +29,7 @@ To build and run this project, you will need:
 
 - Java 11 or higher
 - Maven
-- A database (configured in `application.properties`)
+- A database (configured in `application.yml`)
 - Configure your database connection in src/main/resources/application.yml:
     ```
     database:
