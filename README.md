@@ -1,7 +1,7 @@
 # Spring Boot OpenNLP Demo
 
-This is a Spring Boot application that demonstrates the usage of Apache OpenNLP for natural language processing (NLP) tasks such as language detection, sentence detection, and tokenization. The service processes HTML text, converts it to plain text, detects the language, tokenizes the text, and maps tokens to their types and IDs using database data.
-I had to implement this feature to enhanve recommendations in my end of studies project so i decided to share it with you
+- This is a Spring Boot application that demonstrates the usage of Apache OpenNLP for natural language processing (NLP) tasks such as language detection, sentence detection, and tokenization. The service processes HTML text, converts it to plain text, detects the language, tokenizes the text, and maps tokens to their types and IDs using database data.
+- I had to implement this feature to enhance recommendations in my end of studies project so i decided to share it with you
 
 ## Table of Contents
 
